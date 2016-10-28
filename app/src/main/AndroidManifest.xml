@@ -20,6 +20,10 @@
             android:name=".Menu_recetas"
             android:label="@string/title_activity_menu_recetas" >
         </activity>
+        <activity
+            android:name=".receta_ensalada"
+            android:label="@string/title_activity_receta_ensalada" >
+        </activity>
     </application>
 
 </manifest>
