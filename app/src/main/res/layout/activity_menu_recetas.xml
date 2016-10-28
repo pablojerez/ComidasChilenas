@@ -42,11 +42,22 @@
     <ImageButton
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:id="@+id/imageButton"
+        android:padding="0dp"
+        android:paddingTop="0dp"
+        android:id="@+id/humita"
         android:layout_alignTop="@+id/btnchilena"
+        android:src="@drawable/images"
         android:layout_alignEnd="@+id/textView2"
-        android:layout_marginTop="0dp"
-        android:scaleType="fitCenter"
-    />
+        android:scaleType="fitCenter"/>
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="0dp"
+        android:paddingTop="0dp"
+        android:id="@+id/sopaipilla"
+        android:layout_alignTop="@+id/btnEnsalda"
+        android:src="@drawable/portada"
+        android:layout_alignEnd="@+id/humita"
+        android:scaleType="fitCenter"/>
 </RelativeLayout>
 
